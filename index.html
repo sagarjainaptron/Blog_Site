@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet"   href= "https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"  integrity= "sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Blog App</title>
+  </head>
+  <body>
+    <header class="main_header">
+      <div class="d-flex justify-content-center align-items-center flex-column py-5">
+        <h1 class="main_heading text-uppercase">Sagar Jain</h1>
+        <p class="main_heading_para">Welcome to my <span class="text-capitalize bg-dark text-white py-2 px-3">Blog Website</span></p>
+      </div>
+
+      <!-- main images -->
+      <div class="main_header_div d-flex align-self-start justify-content-center pl-5 flex-column shadow">
+        <p>Sagar Jain</p>
+        <h2><span>I'm Frontend Web developer</span></h2>
+      </div>
+      
+    </header>
+
+    <!-- end of header -->
+
+    <!-- two side div -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+          <div class="row gx-5 mx-sm-auto">
+            <div class="col-lg-8 col-md-11 col-11 mx-auto">
+              <div class="row gy-5">
+                <!-- first post -->
+                <div class="col-12 card p-4 shadow blog_left_div">
+                  <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                   <h1 class="text-uppercase">My first blog</h1>
+                   <p class="blog_title"><span class="font-weight-bold">Title description</span>Aug 17,2020</p>
+                 </div>
+                 <figure class="rightside_img mb-5">
+                   <img src="https://images.pexels.com/photos/459654/pexels-photo-459654.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/ class="img-fluid shadow">
+                 </figure>
+                 <p><span class="font-weight-bold">Sagar Jain</span>
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                 <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                 <div class="d-flex justify-content-between left_div_btn">
+                   <div>
+                     <button class="left_div_like" id="like_btn">
+                       <i class="fa fa-thumbs-up"></i>Like
+                     </button>
+                   </div>
+                   <div>
+                     <button class="left_div_reply" onclick="reply('reply1')">Replies
+                      <badge class="bg-white text-dark p-2">1</badge></button>
+                   </div>
+                 </div>
+
+                 <div class="replies" id="reply1">
+                   <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                     <div class="reply_img mx-2 align-items-center">
+                      <img src="https://img.icons8.com/color/2x/woody-woodpecker.png"/>        
+                     </div>
+                     <div class="reply_text_left">
+                       <p class="blog_title">
+                         <span class="font-weight-bold">Sagar</span>
+                         Sep 2,2020,7:10 PM
+                       </p>
+                       <p>Great Content</p>
+                     </div>
+                   </div>
+                 </div>
+
+                </div>
+
+
+                  <!-- second post -->
+                <div class="col-12 card p-4 shadow blog_left_div">
+                  <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                   <h1 class="text-uppercase">My second blog</h1>
+                   <p class="blog_title"><span class="font-weight-bold">Title description</span>Aug 27,2020</p>
+                 </div>
+                 <figure class="rightside_img mb-5">
+                   <img src="https://images.pexels.com/photos/879109/pexels-photo-879109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/ class="img-fluid shadow">
+                 </figure>
+                 <p><span class="font-weight-bold">Sagar Jain</span>
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                 <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                 <div class="d-flex justify-content-between left_div_btn">
+                   <div>
+                     <button class="left_div_like" id="like_btn">
+                       <i class="fa fa-thumbs-up"></i>Like
+                     </button>
+                   </div>
+                   <div>
+                     <button class="left_div_reply" onclick="reply('reply2')">Replies
+                      <badge class="bg-white text-dark p-2">1</badge></button>
+                   </div>
+                 </div>
+
+                 <div class="replies" id="reply2">
+                   <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                     <div class="reply_img mx-2 align-items-center">
+                      <img src="https://img.icons8.com/color/2x/woody-woodpecker.png"/>        
+                     </div>
+                     <div class="reply_text_left">
+                       <p class="blog_title">
+                         <span class="font-weight-bold">Sagar</span>
+                         Sep 2,2020,7:10 PM
+                       </p>
+                       <p>Great Content</p>
+                     </div>
+                   </div>
+                     <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                     <div class="reply_img mx-2 align-items-center">
+                      <img src="https://img.icons8.com/color/2x/woody-woodpecker.png"/>        
+                     </div>
+                     <div class="reply_text_left">
+                       <p class="blog_title">
+                         <span class="font-weight-bold">Someone</span>
+                         Sep 3,2020,9:10 PM
+                       </p>
+                       <p>Amazing bro</p>
+                     </div>
+                   </div>
+                 </div>
+
+                </div>
+
+
+
+
+              </div>
+            </div>
+
+            <!-- right side div -->
+            <div class="col-lg-3 col-md-7 col-11 justify-content-end m-lg-0 m-auto">
+              <div class="row gy-5 left_div_blog">
+                <!-- about me -->
+                <div class="col-12 about_me_div shadow">
+                  <p style="color: black">Sagar Jain</p>
+                  <p style="color: black">I am a web developer who fell in love with programming in my free time. I enjoy learning about new technology and hava a passion for web development. I am currently working towards my Computer Science Bachelor Degree (Final year).Fast load times and lag free interaction, my highest priority.</p>
+                </div>
+
+                <!-- popular post -->
+                <div class="popular_post">
+                  <div class="right_div_title py-4 pl-2">
+                    <h2>Popular Posts</h2>
+                  </div>
+                  <div class="right_sub_div shadow">
+                    <div class="row">
+                      <div class="col-3 popular_post_img1 py-2 pl-2">
+                        
+                      </div>
+                      <div class="col-9">
+                        <h3>Mukesh Ambani</h3>
+                        <p>Jio</p>
+                      </div>
+                    </div>
+
+                     <div class="row">
+                      <div class="col-3 popular_post_img2 py-2 pl-2">
+                        
+                      </div>
+                      <div class="col-9">
+                        <h3>Bill Gates</h3>
+                        <p>CEO Microsoft</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                    
+                    <!-- tags -->
+                    <div class="right_div_post">
+                      <div class="right_div_title py-4 pl-2">
+                        <h2>Tags</h2>
+                      </div>
+                      <div class="tags_main right_sub_div">
+                        <a href="#" class="badge shadow text-capitalize">css</a>
+                        <a href="#" class="badge shadow text-capitalize">react</a>
+                        <a href="#" class="badge shadow text-capitalize">js</a>
+                      </div>
+                    </div>
+
+
+                    <!-- follow me -->
+                    <div class="right_div_post">
+                      <div class="right_div_title py-4 pl-2">
+                        <h2>Follow Me</h2>
+                      </div>
+                      <div class="right_sub_div d-flex justify-content-around">
+                        <a href="https://www.facebook.com/sagar.jain.52643821/"><i class="fa fa-facebook-square fa-3x"></i></a>
+                        <a href="https://www.instagram.com/sagarjn817/"><i class="fa fa-instagram fa-3x"></i></a>
+                        <a href="https://www.linkedin.com/in/sagar-jain-15118a188"><i class="fa fa-linkedin fa-3x"></i></a>
+                        <a href="https://github.com/sagarjainaptron"><i class="fa fa-github-square fa-3x"></i></a>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <footer>
+          <p class="text-center py-4 bg-light text-dark">design by sagar jain</p>
+        </footer>
+      
+    <!-- end of two side div -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+  <script src= 
+"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+                integrity= 
+"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+                crossorigin="anonymous"></script> 
+        <script src= 
+"https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+                integrity= 
+"sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" 
+                crossorigin="anonymous"></script>  
+
+    <script type="text/javascript">
+      const reply=(res)=>{
+        var res=document.getElementById(res);
+      //  console.log(res);
+          if(res.className=="replies"){
+            res.className="sagarShow";
+          }else if (res.className=="sagarShow") {
+            res.className="replies";
+          }
+      }
+    </script>
+  </body>
+</html>
